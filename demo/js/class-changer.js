@@ -58,7 +58,7 @@ var ClassChanger = {
 	remove: function(parametros) {
 		parametros.accion = "removeClass";
 		return ClassChanger.change(parametros);
-	}
+	},
 	add: function(parametros) {
 		parametros.accion = "addClass";
 		return ClassChanger.change(parametros);
